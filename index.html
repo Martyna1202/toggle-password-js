@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password - event05</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <form
+        id="login"
+        name="login"
+        action=""
+        class="form col-xs-12 col-sm-6 col-lg-4 mx-auto mt-5">
+        <fieldset>
+            <legend class="px-3">Password-Check</legend>
+            <div class="form-group">
+                <label 
+                    for="password" 
+                    class="col-form-label px-3">
+                    Password (6 characters minimum)
+                </label>
+            </div>
+            <div class="form-group">
+                <input 
+                    id="password"
+                    type="password" 
+                    name="password"
+                    placeholder="enter your password"
+                    class="form-control px-3 m-3 show"
+                    minlength="6"
+                    required>
+            </div>
+            <div class="checkbox">
+                <label 
+                    for="showPassword"
+                    class="col-form-label px-3">
+                    <input 
+                        type="checkbox" 
+                        name="showPassword" 
+                        id="showPassword" 
+                        value="on">
+                        Show Password
+                </label>
+            </div>
+        </fieldset>
+    
+    </form>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
